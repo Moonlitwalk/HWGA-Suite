@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Character;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class CharacterController extends Controller
 {
@@ -62,4 +63,5 @@ class CharacterController extends Controller
     {
         //
     }
+
 }
